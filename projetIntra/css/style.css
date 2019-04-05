@@ -1,0 +1,348 @@
+html,body {margin:0;height: 100%}
+.navbar {
+    background-color: #e70a0a;
+}
+.navbar .navbar-brand {
+    color: #ffffff;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+    color: #ffffff;
+}
+.navbar .navbar-text {
+    color: #ffffff;
+}
+.navbar .navbar-text a {
+    color: #ffffff;
+}
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus {
+    color: #ffffff;
+}
+.navbar .navbar-nav .nav-link {
+    color: #ffffff;
+    border-radius: .25rem;
+    margin: 0 0.25em;
+}
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color: #ffffff;
+}
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: #ffffff;
+    background-color: #e3c422;
+}
+.navbar .navbar-toggle {
+    border-color: #e3c422;
+}
+.navbar .navbar-toggle:hover,
+.navbar .navbar-toggle:focus {
+    background-color: #e3c422;
+}
+.navbar .navbar-toggle .navbar-toggler-icon {
+    color: #ffffff;
+}
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+    border-color: #ffffff;
+}
+.navbar .navbar-link {
+    color: #ffffff;
+}
+.navbar .navbar-link:hover {
+    color: #ffffff;
+}
+
+@media (max-width: 575px) {
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ffffff;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #ffffff;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #ffffff;
+        background-color: gold;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ffffff;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #ffffff;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #ffffff;
+        background-color: #e3c422;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ffffff;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #ffffff;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #ffffff;
+        background-color: #e3c422;
+    }
+}
+
+@media (max-width: 1199px) {
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ffffff;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #ffffff;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #ffffff;
+        background-color: #e3c422;
+    }
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ffffff;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #ffffff;
+}
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ffffff;
+    background-color: #e3c422;
+}
+
+
+.img-fluid
+{
+    width:100%;
+    height:100%;
+}
+@media only screen and (min-width: 600px) {
+    .ban
+    {
+        background-image: url("../img/goodwin.jpg");
+        height:100%;
+        background-position: center;
+        background-repeat: no-repeat;
+
+    }
+    .h1ban
+    {
+        padding-top: 200px;
+        color:gold;
+    }
+    .h1info
+    {
+        padding-top: 30px;
+        color:black;
+        text-shadow: 2px 0 0 red, -2px 0 0 red, 0 2px 0 red, 0 -2px 0 red, 1px 1px red, -1px -1px 0 red, 1px -1px 0 red, -1px 1px 0 red;
+    }
+    .blanc
+    {
+        background-color: white;
+    }
+    .margeZone2
+    {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .gold
+    {
+        background-color:gold;
+    }
+    .fawesome
+    {
+        background-color: #e70a0a;
+        height:175px;
+    }
+    .portfolio
+    {
+        padding-left:0;
+        padding-right:0;
+    }
+    .parallax
+    {
+        background-image: url("../img/defo.jpg");
+        height:100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .parallax2
+    {
+        background-image: url("../img/tartt.jpg");
+        height: 100%;
+        width: 1920px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .rowPar
+    {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .zoneJ
+    {
+        height: 80%;
+    }
+    .carreJ1
+    {
+        background-color: gold;
+        opacity:0.6;
+
+        text-align: center;
+    }
+    .carreJ2
+    {
+        background-color: gold;
+        opacity:0.6;
+
+        text-align: center;
+    }
+    .espaceAvantCarreJ
+    {
+        height:70%;
+    }
+    .h1ZoneJ1
+    {
+        font-size: 45px;
+    }
+    .h1ZoneJ2
+    {
+        font-size: 60px;
+    }
+    .espaceForm
+    {
+        padding-top: 100px;
+        height: 100%;
+    }
+    .bas
+    {
+        background-color: white;
+    }
+
+}
+@media only screen and (max-width: 600px)
+{
+    .ban
+    {
+        background-image: url("../img/witherspoon.jpg");
+        height:100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .h1ban
+    {
+        padding-top: 150px;
+        color:gold;
+    }
+    .h1info
+    {
+        padding-top: 30px;
+        color:black;
+        text-shadow: 2px 0 0 red, -2px 0 0 red, 0 2px 0 red, 0 -2px 0 red, 1px 1px red, -1px -1px 0 red, 1px -1px 0 red, -1px 1px 0 red;
+    }
+    .blanc
+    {
+        background-color: white;
+    }
+    .margeZone2
+    {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .gold
+    {
+        background-color:gold;
+    }
+    .fawesome
+    {
+        background-color: #e70a0a;
+        height:175px;
+    }
+    .portfolio
+    {
+        padding-left:0;
+        padding-right:0;
+    }
+    .parallax
+    {
+        background-image: url("../img/defo.jpg");
+        height:100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .parallax2
+    {
+        background-image: url("../img/tartt.jpg");
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .rowPar
+    {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .zoneJ
+    {
+        height: 80%;
+    }
+    .carreJ1
+    {
+        background-color: gold;
+        opacity:0.6;
+        text-align: center;
+    }
+    .carreJ2
+    {
+        background-color: gold;
+        opacity:0.6;
+        text-align: center;
+    }
+    .espaceAvantCarreJ
+    {
+        height:70%;
+    }
+    .h1ZoneJ1
+    {
+        font-size: 50px;
+    }
+    .h1ZoneJ2
+    {
+        font-size: 60px;
+    }
+    .espaceForm
+    {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        height: 100%;
+    }
+    .bas
+    {
+        background-color: white;
+        height: 300px;
+    }
+}
